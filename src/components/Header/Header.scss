@@ -1,0 +1,26 @@
+header {
+    border-bottom: 1px solid #000;
+    padding-top:  22px;
+    background-color: #191919;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    .nav__item {
+        margin: 0 22px;
+        a {
+             color: white;
+             padding: 22px 0;
+             display: block;
+        }
+    }
+}

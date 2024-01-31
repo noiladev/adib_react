@@ -1,0 +1,138 @@
+.author {
+    background-color: #191919;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.author__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author__main {
+    .author__img {
+        width: 552px;
+        height: 739.327px;
+        border-radius: 0px 50px 50px 0px;
+        object-fit: cover;
+        object-position: center top;
+    }
+    .author__date {
+        margin-top: 40px;
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p {
+                color: #C9AC8C;
+                font-size: 39px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 144.4%;
+            }
+        }
+        span {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p {
+                color: rgba(255, 255, 255, 0.60 );
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 144.4%;
+            }
+        }
+    }
+}
+
+.author__info {
+    margin-left: 47px;
+    margin-top: -30px;
+    width: 670px;
+}
+
+.author__title {
+    margin-top: 35px;
+    color: #C9AC8C;
+    margin-top: 52px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.author__box {
+    border-radius: 13px ;
+    border: 1.5px solid #C9AC8C;
+    padding: 12px;
+    div {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 24px;
+        i {
+            width: 20px;
+            height: 19.868px;
+            color: #C9AC8C;
+        }
+    }
+}
+
+.plus__info {
+    margin-top: 9px;
+    margin-left: 25px;
+}
+ 
+.author__des {
+    color: rgba(255, 255, 255, 0.80 );
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144.4%;
+    margin-top: 20px;
+}
+
+.author__poems {
+    color: #C9AC8C;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.author__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author__item {
+    margin-right: 15px ;
+}
+
+.author__card {
+    width: 165px;
+    height: 302px;
+    img {
+        width: 100%;
+        height: 246px;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+    h3 {
+        color: #C9AC8C;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    p {
+        color: rgba(255, 255, 255, 0.60 );
+        font-size: 12px;
+        font-style: normal;
+        line-height: 144.4%;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,99 @@
+.book {
+    background-color: #191919;
+    color: white;
+    padding-top: 57px;
+    padding-bottom: 168px;
+}
+
+.book__top {
+    display: flex;
+    justify-content: space-around;
+    img {
+        width: 519.293px;
+        height: 810.129px;
+        flex-shrink: 0;
+        border-radius: 15px;
+    }
+
+}
+
+.book__info {
+    // width: 639px;
+    margin-left: 97px;
+    h2 {
+        color: #C9AC8C;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        font-size: 24px;
+    }
+    .book__subtitle {
+        text-align: left;
+        color: #C9AC8C;
+        font-size: 28px;
+        font-weight: 590;
+    }
+    span {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.60 );
+        p {
+            margin-bottom: 0 !important;
+            margin-left: 10px;
+            color: white;
+            font-size: 18px;
+        }
+    }
+    .line {
+        display: flex;
+        align-items: center;
+        margin-top: 48px;
+        color: #C9AC8C;
+        p{
+
+            font-size: 21px;
+        }
+        hr {
+            border: 1px solid #C9AC8C;
+            display: flex;
+            flex-grow: 1;
+            margin-left: 20px;
+        }
+    }
+    .book__des {
+        margin-top: 48px;
+        color: rgba(255, 255, 255, 0.80 );
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 144.4%;
+    }
+    .format__title {
+        color: #C9AC8C;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 46px;
+    }
+    .book__format {
+        margin-top: 28px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div {
+            text-align: center;
+        }
+        i {
+            font-size: 24px;
+        }
+        span {
+            display: block;
+            text-align: center;
+        }
+    }
+}

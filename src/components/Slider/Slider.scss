@@ -1,0 +1,48 @@
+.slider {
+    margin-top: 54px;
+}
+
+.slider__item {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-between;
+    background-image:url('../../assets/img/1.png'), url('../../assets/img/2.png'), url('../../assets/img/3.png'),  url('../.././assets/img/herofon.png'), ;
+    background-repeat: no-repeat;
+    background-position: bottom left, top center, bottom right 500px;
+    img {
+        width: 397.533px;
+        height: 346.973px;
+        border-radius: 21px;
+        object-fit: cover;
+    }
+}
+
+.slider__title {
+    color: #C9AC8C;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 86px;
+    width: 337px;
+    padding-top: 45px;
+}
+
+.mySwiper {
+    .swiper-pagination-bullet {
+        width: 57px;
+        height: 3px;
+        border-radius: 2px;
+        background-color: #eee;
+    }
+    .swiper-paginetion-horizontal {
+        text-align-last: left;
+        padding-left: 86px;
+        bottom: 70px;
+    }
+    .swiper-pagination-bullet-active { 
+        background-color: #fff;
+    }
+
+}

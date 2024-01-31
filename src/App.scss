@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'SteinbeckFC' ;
+    src: url('./assets/font/SteinbeckFC-Reg.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'SteinbeckFC';
+}
+
+ul, ol {
+    padding-left: 0 ;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+p{
+    margin-bottom: 0;
+}

@@ -1,0 +1,46 @@
+.books {
+    background-color: #191919;
+}
+
+.books__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.books__item {
+    margin-top: 50px;
+}
+
+.books__card {
+    width: 164px;
+    height: 321px;
+    img {
+        width: 100%;
+        height: 246px;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+    h3 {
+        color: #C9AC9C;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    p {
+        color: rgba(255, 255, 255, 0.60 );
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 144.4%;
+    }
+    span {
+        color: rgba(255, 255, 255, 0.60 );
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 144.4%;
+    }
+}
